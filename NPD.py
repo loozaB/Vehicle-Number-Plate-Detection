@@ -81,7 +81,7 @@ def detect_numbers_and_extract(video_path):
 
 # Streamlit UI
 
-st.title("Number Plate and Number Extraction using YOLOv8")
+st.title("Number Plate Detection and Number Extraction using YOLOv8")
 uploaded_video = st.file_uploader("Upload a Photo/Video", type=["mp4", "jpg"])
 
 
