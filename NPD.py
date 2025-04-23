@@ -7,8 +7,8 @@ import pytesseract
 import numpy as np
 
 # Load YOLOv8 models 
-model = YOLO('best (1).pt')     # Number Plate Detection model
-char_model = YOLO(r'Z:\python class\Number Plates\Numbers\apr21.pt')   # Character Detection model (update path if needed)
+model = YOLO('Plate.pt')     # Number Plate Detection model
+char_model = YOLO('Number.pt')   # Character Detection model (update path if needed)
 
 # Function to detect number plate and extract numbers from a frame/image
 def process_frame(frame):
